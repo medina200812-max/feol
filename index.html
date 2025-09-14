@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lexend+Deca:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>preview card component</title>
+    <style>
+      body {
+        background-color: hsl(233, 47%, 7%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        color: white;
+      }
+      .container {
+        background-color: hsl(244, 37%, 16%);
+        display: flex;
+        width: 900px;
+        height: 410px;
+        border-radius: 10px;
+      }
+      .heading {
+        font-size: 30px;
+        font-family: "Lexend Deca";
+        margin-top: 25px;
+      }
+      span {
+        color: hsl(277, 64%, 61%);
+      }
+      .left {
+        padding: 30px;
+      }
+      img {
+        width: 500px;
+        height: 410px;
+      }
+      .aa {
+        font-size: 18px;
+        margin-top: 35px;
+        font-family: "Inter";
+        color: hsla(0, 0%, 100%, 0.6);
+      }
+      .stats {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+      }
+
+      .stat h2 {
+        font-family: "Lexend Deca", sans-serif;
+        font-size: 25px;
+        margin-bottom: 3px;
+      }
+
+      .stat p {
+        font-family: "Lexend Deca", sans-serif;
+        color: hsla(0, 0%, 100%, 0.6);
+        text-transform: uppercase;
+        font-size: 10px;
+        letter-spacing: 1px;
+      }
+      .stats {
+        flex-direction: row;
+        justify-content: space-between;
+      }
+      img {
+        border-radius: 0px 10px 10px 0px;
+      }
+      img {
+        color: rgb(200, 0, 255);
+      }
+      .right {
+        background: rgb(250, 0, 237);
+        opacity: 0.5;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="left">
+        <h1 class="heading">
+          Get <span> insights</span> that help your business grow.
+        </h1>
+        <p class="aa">
+          Discover the benefits of data analytics and make better decisions
+          regarding revenue, customer experience, and overall efficiency.
+        </p>
+        <div class="stats">
+          <div class="stat">
+            <h2>10k+</h2>
+            <p>companies</p>
+          </div>
+          <div class="stat">
+            <h2>314</h2>
+            <p>templates</p>
+          </div>
+          <div class="stat">
+            <h2>12M+</h2>
+            <p>queries</p>
+          </div>
+        </div>
+      </div>
+      <div class="right"><img src="images/image-header-desktop.jpg" /></div>
+    </div>
+  </body>
+</html>
